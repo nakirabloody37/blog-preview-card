@@ -68,13 +68,31 @@ p {
 .blog-preview-card {
   background-color: #fff;
 
-  width: calc(300rem / 16);
+  max-width: calc(350rem / 16);
   padding: var(--space-6);
 }
 
 .card-img {
   width: 100%;
-  margin-bottom: var(--space-8);
+  margin-bottom: var(--space-5);
+}
+
+.tag-box {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+  margin-bottom: var(--space-6);
+}
+
+.heading-primary {
+  font-size: var(--text-6);
+  margin-bottom: var(--space-5);
+}
+
+.card-description {
+  color: var(--grey-1);
+  line-height: 1.5;
+  margin-bottom: var(--space-4);
 }
 
 /*sec GREG */
