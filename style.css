@@ -133,3 +133,32 @@ p {
   font-size: var(--text-3p2);
   font-weight: 800;
 }
+
+/*sec FOOTER */
+
+.attribution {
+  display: flex;
+  gap: var(--space-4);
+  font-size: var(--text-3p2);
+}
+
+.attribution a:link,
+.attribution a:visited {
+  display: inline-block;
+  color: #312a10;
+  text-decoration: none;
+  font-weight: 800;
+  border-bottom: 1px solid #312a10;
+  margin-left: var(--space-1);
+
+  transition: all 250ms;
+}
+
+.attribution a:hover {
+  transform: translateY(-2px);
+  border-bottom: 1px solid transparent;
+}
+
+.attribution a:active {
+  transform: translateY(-1px);
+}
