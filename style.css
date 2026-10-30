@@ -68,7 +68,7 @@ p {
 .blog-preview-card {
   background-color: #fff;
 
-  max-width: calc(350rem / 16);
+  max-width: calc(375rem / 16);
   padding: var(--space-6);
   border-radius: 13px;
 }
@@ -93,6 +93,10 @@ p {
   font-size: var(--text-3p2);
   font-weight: 800;
   border-radius: 3px;
+}
+
+.date {
+  font-size: var(--text-3p2);
 }
 
 .heading-primary {
