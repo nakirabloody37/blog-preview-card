@@ -1,11 +1,11 @@
 /*sec DESIGN FRAMEWORK */
 :root {
   /* sys COLORS */
-  --primary-color: hsl(47, 88%, 63%);
+  --primary-color: #f4d04e;
 
   /* . Greys */
-  --grey-1: hsl(0, 0%, 42%);
-  --grey-2: hsl(0, 0%, 7%);
+  --grey-1: #6b6b6b;
+  --grey-2: #121212;
 
   /* sys Font Sizes */
 
@@ -70,18 +70,29 @@ p {
 
   max-width: calc(350rem / 16);
   padding: var(--space-6);
+  border-radius: 13px;
 }
 
 .card-img {
   width: 100%;
   margin-bottom: var(--space-5);
+  border-radius: 13px;
 }
 
 .tag-box {
   display: flex;
   flex-direction: column;
-  gap: var(--space-1);
+  align-items: flex-start;
+  gap: var(--space-3);
   margin-bottom: var(--space-6);
+}
+
+.tag {
+  background-color: var(--primary-color);
+  padding: var(--space-1) var(--space-2);
+  font-size: var(--text-3p2);
+  font-weight: 800;
+  border-radius: 3px;
 }
 
 .heading-primary {
