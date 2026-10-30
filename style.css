@@ -97,13 +97,13 @@ p {
 
 .heading-primary {
   font-size: var(--text-6);
-  margin-bottom: var(--space-5);
+  margin-bottom: var(--space-4);
 }
 
 .card-description {
   color: var(--grey-1);
   line-height: 1.5;
-  margin-bottom: var(--space-4);
+  margin-bottom: var(--space-6);
 }
 
 /*sec GREG */
