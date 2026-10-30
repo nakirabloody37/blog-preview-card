@@ -70,7 +70,9 @@ p {
 
   max-width: calc(375rem / 16);
   padding: var(--space-6);
-  border-radius: 13px;
+  border-radius: 21px;
+  border: 1px solid var(--grey-2);
+  box-shadow: var(--space-2) var(--space-2) 0 var(--grey-2);
 }
 
 .card-img {
