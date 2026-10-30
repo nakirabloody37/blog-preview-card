@@ -98,6 +98,12 @@ p {
 .heading-primary {
   font-size: var(--text-6);
   margin-bottom: var(--space-4);
+  transition: all 250ms ease-out;
+  cursor: pointer;
+}
+
+.heading-primary:hover {
+  color: var(--primary-color);
 }
 
 .card-description {
@@ -110,9 +116,14 @@ p {
 .greg {
   display: flex;
   align-items: center;
-  gap: var(--space-5);
+  gap: var(--space-3);
 }
 
 .greg-img {
   width: var(--space-6);
+}
+
+.greg-hooper {
+  font-size: var(--text-3p2);
+  font-weight: 800;
 }
