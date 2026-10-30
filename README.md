@@ -18,8 +18,8 @@ A blog preview card built with HTML & CSS
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution](https://github.com/nakirabloody37/blog-preview-card)
+- Live Site URL: [Live Site](https://nakirabloody37.github.io/blog-preview-card/)
 
 ### Built with
 
