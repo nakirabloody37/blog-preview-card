@@ -1,3 +1,4 @@
+/*sec DESIGN FRAMEWORK */
 :root {
   /* sys COLORS */
   --primary-color: hsl(47, 88%, 63%);
@@ -39,6 +40,8 @@
   --space-32: 8rem;
 }
 
+/*sec GENERAL */
+
 *,
 *::after,
 *::before {
@@ -56,6 +59,31 @@ body {
   background-color: var(--primary-color);
 }
 
+p {
+  font-size: var(--text-4);
+}
+
+/*sec BLOG PREVIEW CARD */
+
 .blog-preview-card {
   background-color: #fff;
+
+  width: calc(300rem / 16);
+  padding: var(--space-6);
+}
+
+.card-img {
+  width: 100%;
+  margin-bottom: var(--space-8);
+}
+
+/*sec GREG */
+.greg {
+  display: flex;
+  align-items: center;
+  gap: var(--space-5);
+}
+
+.greg-img {
+  width: var(--space-6);
 }
