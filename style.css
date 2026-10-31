@@ -102,7 +102,7 @@ p {
 }
 
 .heading-primary {
-  font-size: var(--text-6);
+  font-size: clamp(var(--text-5), 1.1rem + 0.6vw, var(--text-7p2));
   margin-bottom: var(--space-4);
   transition: all 250ms ease-out;
   cursor: pointer;
@@ -138,6 +138,7 @@ p {
 
 .attribution {
   display: flex;
+  flex-wrap: wrap;
   gap: var(--space-4);
   font-size: var(--text-3p2);
 }
